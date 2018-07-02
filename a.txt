@@ -1,0 +1,389 @@
+<div id="w">
+			<!--顶部工具栏-->
+			<div class="set-nav">
+				<div class="warp">
+					<ul class="warp-left">
+						<li>欢迎光临易果生鲜!</li>
+						<!--送货城市star-->
+						<li>
+							<div class="city-1">配送至:</div>
+							<div class="city">
+								<a href="#">上海</a>
+								<s></s>								
+							</div>
+						</li>
+
+							<!--送货城市end-->
+					</ul>
+					<div class="allcity">
+						<div class="choose">
+							<span>请根据您的收货地址来选择</span>
+							<a href="#">全国其他城市&gt;&gt;</a>
+						</div>
+						<div class="choose-bottom">
+							<div class="hotcity">
+								<i></i>
+								<span>热门城市</span>
+							</div>
+						</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					<ul class="warp-right">
+						<li>
+							<a href="#">[登陆]</a>
+						</li>
+						<li>
+							<a href="#">[注册]</a>
+						</li>
+						<li><s></s>
+							<a href="">我的易果</a><i></i></li>
+						<li><s></s>
+							<a href="">手机易果</a><i></i></li>
+						<li><s></s>
+							<a href="">储值卡</a>
+						</li>
+						<li><s></s>
+							<a href="">礼品兑换券入口</a>
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+			<!--头部-->
+			<div class="head">
+
+				<div class="warp">
+
+					<div class="logo">
+
+						<a href="#"></a>
+					</div>
+
+					<!--搜索-->
+					<div class="search">
+						<div class="ss">
+							<input type="text" name="search-1" class="search-1" id="search-1" value="" /><input type="button" name="search-btn" class="search-btn" id="" value="搜索" />
+
+						</div>
+						<div class="ls">
+							<a href="#">意大利脐橙</a>
+							<a href="#">意大利脐橙</a>
+							<a href="#">意大利脐橙</a>
+							<a href="#">意大利脐橙</a>
+							<a href="#">意大利脐橙</a>
+
+						</div>
+					</div>
+					<!--	购物车-->
+					<div class="shopping">
+						<dl>
+							<dt class="shopping-btn"><a href="#"> <span class="totleNum"><b>0</b></span><b class="totlePrice">0.0</b></a></dt>
+							<dd class="shopping-list">
+								<div class="spacer"></div>
+								<div class="nogoods">
+									购物车中还没有商品，赶紧选购吧！
+								</div>
+								<!--<div class="goods" >
+								<p id="deliveryType" >满100元包邮！</p>
+								<ul></ul>
+								<div class="price-total">
+									<div><span class="totleNum">共<b>0</b>件商品</span><span>共计<b class="totlePrice">0.0</b></span></div>
+									<div>
+										<a href="#" class="settleup">去购物车</a>
+									</div>
+								</div>
+							</div>-->
+							</dd>
+						</dl>
+					</div>
+				</div>
+
+			</div>
+			
+			<div class="">
+
+			</div>
+		</div>
+		
+
+
+
+
+
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+blockquote,
+th,
+td,
+p {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    color: #444;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+ul,
+ol,
+dl,
+dt,
+dd {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+body,
+input,
+textarea {
+    font-size: 12px;
+    font-family: Arial, Verdana, "\5b8b\4f53";
+}
+
+.set-nav {
+    z-index: 99;
+    position: relative;
+    width: auto;
+    height: 30px;
+    background: #f7f9f8;
+    .warp {
+        width: 1200px;
+        margin: 0 auto;
+        .warp-left {
+            float: left;
+            li {
+                float: left;
+                line-height: 30px;
+                margin-right: 10px;
+                .city,
+                .city-1 {
+                    float: left;
+                    a {
+                        float: left;
+                        display: block;
+                        margin-left: 5px;
+                    }
+                    s {
+                        display: block;
+                        margin-top: 12.5px;
+                        margin-left: 5px;
+                        width: 8px;
+                        height: 8px;
+                        background: url(../img/header-img.png);
+                        float: left;
+                    }
+                }
+            }
+        }
+        //      .allcity {
+        //          width: 502px;
+        //          height: 320px;
+        //          border: {
+        //              width: 2px;
+        //              style: solid;
+        //              color: #007f4d;
+        //          }
+        //          position:absolute;
+        //          top: 28px;
+        //          left: 276px;
+        //          .choose {
+        //              width: 498px;
+        //              height: 38px;
+        //              line-height: 38px;
+        //              background: #ededed;
+        //              font-size: 14px;
+        //              span {
+        //                  display: block;
+        //                  float: left;
+        //                  color: #727272;
+        //                  margin-left: 20px;
+        //              }
+        //              a {
+        //                  display: block;
+        //                  color: #008842;
+        //                  float: right;
+        //                  margin-right: 26px;
+        //              }
+        //          }
+        //          .choose-bottom {
+        //              background: #ffffff;
+        //              .hotcity {
+        //                  padding-top: 14px;
+        //                  i {
+        //                      display: block;
+        //                      float: left;
+        //                      width: 16px;
+        //                      height: 16px;
+        //                      margin-right: 5px;
+        //                      margin-left: 16px;
+        //                      background: url(../img/header-img.png)no-repeat -174px 0;
+        //                  }
+        //                  span {
+        //                      font-size: 15px;
+        //                      color: #666666;
+        //                      float: left;
+        //                  }
+        //              }
+        //          }
+        .warp-right {
+            float: right;
+            li {
+                float: left;
+                margin-right: 10px;
+                a {
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+}
+.head {
+    background: #e0e0e0;
+    height: 78px;
+    z-index: 80;
+    .warp {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 15px 0 12px 0;
+        .logo {
+            width: 280px;
+            float: left;
+            overflow: hidden;
+            a {
+                display: block;
+                width: 145px;
+                height: 50px;
+                background: url(../img/logo.png) no-repeat left top;
+            }
+        }
+        .ss {
+            float: left;
+            overflow: hidden;
+        }
+        .search {
+            float: left;
+            width: 530px;
+            .search-1 {
+                float: left;
+                width: 425px;
+                height: 26px;
+                line-height: 26px;
+                padding: 0 10px;
+                border: 1px solid #008842;
+                background: #e0e0e0;
+            }
+            .search-btn {
+                float: left;
+                display: block;
+                width: 81px;
+                height: 26px;
+                line-height: 28px;
+                padding: 0;
+                border: none;
+                cursor: pointer;
+                color: #fff;
+                font-size: 14px;
+                background: #008842;
+            }
+        }
+        .ls {
+            float: left;
+            overflow: hidden;
+            a {
+                float: left;
+                margin: 9px 5px 0px 0px;
+            }
+        }
+    }
+    
+    .shopping {
+        z-index: 80;
+        float: right;
+        position: relative;
+        .shopping-btn {
+            width: 170px;
+            padding: 6px;
+            line-height: 28px;
+            text-align: center;
+            font-size: 25px;
+            border: 1px solid #008842;
+            background: #fff;
+            cursor: pointer;
+            a {
+                display: block;
+                color: #008842;
+            }
+            .totleNum {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                width: 28px;
+                height: 20px;
+                margin-right: 10px;
+                font-size: 12px;
+                padding: 0;
+                background: url(../img/header-img.png) no-repeat -112px 0;
+                b {
+                    position: absolute;
+                    top: -8px;
+                    left: 8px;
+                }
+            }
+        }
+        .shopping-list {
+            z-index: 99;
+            display: none;
+            position: absolute;
+            top: 41px;
+            right: 0;
+            width: 400x;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #007f4d;
+            .nogoods {
+                width: 380px;
+                height: 120px;
+                line-height: 120px;
+                text-align: center;
+                background: url(../img/none-bg-w190.jpg) no-repeat center #fff;
+            }
+        }
+    }
+}

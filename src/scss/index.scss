@@ -1,0 +1,234 @@
+img{
+    display: block !important;
+}
+
+.photo {
+    height: 493px !important;
+}
+
+.ad-item {
+    z-index: 90;
+    margin-top: -25px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    ul {
+        li {
+            position: relative;
+            float: left;
+            width: 290px;
+            height: 290px;
+            margin: 25px 0 10px 10px;
+            a {
+                display: block;
+            }
+        }
+        li:hover {
+            img {
+                box-shadow: 2px 2px 5px #888888;
+            }
+            a {
+                box-shadow: -2px -2px 5px #888888;
+            }
+        }
+    }
+    p {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 270px;
+        height: 57px;
+        line-height: 25px;
+        margin: 10px;
+        color: #575757;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background: rgba(255, 255, 255, 0.9);
+        background: #fff \9;
+    }
+    b {
+        display: block;
+        font: bold 22px "Microsoft YaHei";
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+//商品陈列
+.show-1f {
+    width: 1200px;
+    margin: 0 auto;
+    .foot-s {
+        width: 1200px;
+        overflow: hidden;
+        margin-bottom: 5px;
+        ul {
+            float: right;
+            li {
+                margin-top: 10px;
+                padding: 0 5px 0 5px;
+                float: left;
+                border-left: 1px solid #000000;
+                a {
+                    color: #727272;
+                }
+            }
+        }
+        h2 {
+            float: left;
+            font: bold 18px "Microsoft YaHei";
+        }
+        i {
+            display: inline-block;
+            width: 45px;
+            height: 30px;
+            margin-right: 10px;
+            padding: 10px 7px 4px 7px;
+            color: #fff;
+            font: bold 14px "Microsoft YaHei";
+            vertical-align: text-bottom;
+        }
+    }
+}
+
+.f1-s {
+    a {
+        color: #fc5f3c;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat left top;
+    }
+}
+
+.f2-s {
+    a {
+        color: #007f4d;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat -46px 0;
+    }
+}
+
+.f3-s {
+    a {
+        color: #45c6ce;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat -184px 0;
+    }
+}
+
+.f4-s {
+    a {
+        color: #f0c000;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat -92px 0;
+    }
+}
+
+.f5-s {
+    a {
+        color: #e08683;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat -138px 0;
+    }
+}
+
+.f6-s {
+    a {
+        color: #b84f00;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat -368px 0;
+    }
+}
+.f7-s {
+    a {
+        color: #764e00;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat -230px 0;
+    }
+}
+.f8-s {
+    a {
+        color: #940606;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat -414px 0;
+    }
+}
+.f9-s {
+    a {
+        color: #3ca3dc;
+    }
+    i {
+        background: url(../img/floor_tit_icon.png) no-repeat -531px 0;
+    }
+}
+
+
+.foot-nav {
+    width: 1200px;
+    height: 460px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.foot-n-l {
+    float: left;
+}
+
+.foot-n-r {
+    float: left;
+    overflow: hidden;
+    width: 924px;
+    height: 460px;
+    ul {
+        float: left;
+        overflow: hidden;
+        li {
+            float: left;
+            
+        }
+    }
+}
+.foot-n-1{
+    float: left;
+}
+.foot-n-2{
+    float: left;
+    width: 677px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+.foot-up{
+    float: left;
+    width: 677px;
+    height: 383px;
+    ul{
+        float: left;
+        li{
+            float: left;
+            
+        }
+    }
+    
+}
+.foot-dw{
+    float: left;
+    height: 77px;
+    padding: 11px;
+width: 677px;
+background: #FFFFFF;
+}
+.foot-n-3{
+    float: left;
+    
+   
+}

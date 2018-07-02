@@ -1,0 +1,268 @@
+a {
+    color: #444;
+    text-decoration: none;
+    outline: none;
+}
+
+.list {
+    position: absolute;
+    top: 110px;
+    left: 360px;
+    ul {
+        float: left;
+        li {
+            float: left;
+            width: 115px;
+            height: 37px;
+            font-size: 15px;
+            line-height: 37px;
+            text-align: center;
+            a {
+                color: #444444;
+            }
+            a:hover {
+                color: #008000;
+            }
+        }
+    }
+}
+
+.lisi {
+    height: 38px;
+    width: 1200px;
+    border-bottom: 1px solid green;
+}
+
+.crumbs {
+    margin: 10px 0;
+    margin-left: -10px;
+    a {
+        margin: 0 10px;
+    }
+}
+.clearfix::after, .wrap::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.content {
+    margin-bottom: 20px;
+}
+.pic-preview {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 600px;
+}
+.pic-big {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+.pic-thumb {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+}
+.product-info {
+    width: 680px;
+    margin-left: 520px;
+}
+.summary-name {
+    margin: 0 85px 20px 0;
+}
+.summary-name h1 {
+    font: normal 26px "Microsoft YaHei";
+}
+.summary-name p {
+    height: 40px;
+    margin-top: 5px;
+    color: #777;
+    font: normal 16px/20px "Microsoft YaHei";
+}
+.clearfix::after, .wrap::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.pro-price {
+    float: left;
+    height: 70px;
+    span {
+    display: inline-block;
+    padding-left: 5px;
+}
+em {
+    padding: 0 5px;
+    font-size: 18px;
+    color: #ff0000;
+    font-style: normal;
+}
+strong {
+    color: #ff0000;
+    font-size: 35px;
+    font-weight: normal;
+}
+}
+.pro-price .mt5 {
+    margin-top: 5px;
+    del {
+    font-size: 16px;
+}
+}
+.pro-review {
+    float: right;
+    text-align: center;
+    p {
+    line-height: 22px;
+    color: #999;
+}
+ b {
+    color: #e8380d;
+    font-size: 18px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+a {
+    color: #999;
+}
+}
+.summary-other .left {
+    float: left;
+    width: 529px;
+    padding-right: 20px;
+    border-right: 1px solid #d9d9d9;
+}
+.choose .dt {
+    line-height: 52px;
+}
+.summary-other .dt {
+    float: left;
+    width: 40px;
+    padding: 0 10px;
+}
+.summary-other .dd {
+    float: left;
+    width: 468px;
+}
+.choose li {
+    float: left;
+    position: relative;
+    margin: 5px 10px 5px 0;
+}
+.choose li a:hover, .choose li a:hover span, .choose li.selected a, .choose li.selected span {
+    border-color: #008842;
+}
+.pro-service {
+    padding-left: 10px;
+    color: #999;
+}
+.pro-service b {
+    color: #008842;
+}
+.pro-amount .dt {
+    line-height: 43px;
+}
+.summary-other .dd {
+    float: left;
+    width: 468px;
+}
+.spinner {
+    width: 76px;
+}
+.spinner {
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.spinner .decrease {
+    top: 21px;
+    right: 18px;
+    border-top: none;
+}
+.spinner button {
+    display: block;
+    width: 18px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    position: relative;
+    border: 1px solid #e2e2e2;
+    
+    background-color: white;
+    cursor: pointer;
+}
+.addcart {
+    float: left;
+    width: 187px;
+    height: 43px;
+    margin-left: 10px;
+}
+.addcart {
+    float: left;
+    width: 187px;
+    height: 43px;
+    margin-left: 10px;
+}
+.addcart a, .disabled a {
+    display: block;
+    width: 187px;
+    height: 25px;
+    padding: 9px 0;
+    text-align: center;
+    font: normal 18px/25px "Microsoft YaHei";
+    color: #fff;
+    background: #008842;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.btn-gn {
+    color: #fff;
+    background: #008842;
+}
+a {
+    color: #444;
+    text-decoration: none;
+    outline: none;
+}
+.summary-other .right {
+    float: right;
+    width: 120px;
+    padding-left: 10px;
+    color: #777;
+}
+.pic-thumb {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    
+    width: 600px;
+    img{
+        float: left;
+    }
+}
+.crumbs-left{
+    width: 253px;
+    height: 1000px;
+    float: left;
+    background: #1098EC;
+    border: 1px solid #cde4c0;
+}
+.crumbs-right{
+    float: right;
+    width: 930px;
+}
+.content{
+    margin-bottom:25px ;
+}
+.hot{
+    border: 1px solid gainsboro;
+    background: #FFFFFF;
+    
+}
